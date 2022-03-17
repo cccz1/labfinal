@@ -38,6 +38,6 @@ if(!markdown.substring(currentIndex).contains("[") && markdown.substring(current
 ```
 in order to look for the link inside a .md file with all parentheses but no brackets. 
 ## fix
-I should fix it by considering adding a counter to identify stuff inside the next pair of parentheses. Both bugs happened when there's more than one brackets/parentheses appeared, so if there's a pair of parentheses or brackets, I should make counter to look for the next pair of brackets/parentheses. if only one pair of parentheses/brackets appeared, it should return an empty array; if two pairs of parentheses/brackets appeared, and one of them is inside the other one, it should also return an empty array.
+I should fix it by considering adding counters to identify stuff inside the next pair of parentheses. Both bugs happened when there's more than one brackets/parentheses appeared, so if there's a pair of parentheses or brackets, I should make counter to look for the next pair of brackets/parentheses. if only one pair of parentheses/brackets appeared, it should return an empty array; if two pairs of parentheses/brackets appeared, and one of them is inside the other one, it should also return an empty array.
 
  
